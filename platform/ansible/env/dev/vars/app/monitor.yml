@@ -1,6 +1,9 @@
 ---
 monitor:
-  enabled: false
+  enabled: true
   repository: https://github.com/DigitalState/Monitor.git
   version: 0.11.0
-  host: monitor.dev.ds
+  username: admin@staff.ds
+  password: admin
+  ui:
+    host: ui.monitor.dev.ds
